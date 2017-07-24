@@ -15,7 +15,7 @@ public class Main {
 		MemberInfoPrinter infoPrinter = ctx.getBean("infoPrinter", MemberInfoPrinter.class);
 		
 		RegisterRequest regReq = new RegisterRequest();
-		regReq.setEmail("wordcop@naver.com");
+		regReq.setEmail("wordcop@naver.com"); //test
 		regReq.setName("김동현");
 		regReq.setPassword("1234");
 		regReq.setConfirmPassword("1234");
