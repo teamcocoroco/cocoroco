@@ -13,7 +13,7 @@ public class Main {
 		ApplicationContext ctx = new GenericXmlApplicationContext("classpath:applicationContext2.xml");
 		MemberRegisterService regSvc = ctx.getBean("memberRegSvc", MemberRegisterService.class);
 		MemberInfoPrinter infoPrinter = ctx.getBean("infoPrinter", MemberInfoPrinter.class);
-		//오오오오
+		//남주누나꺼 수정
 		
 		RegisterRequest regReq = new RegisterRequest();
 		regReq.setEmail("wordcop@naver.com");
